@@ -1,5 +1,7 @@
-[boppo](https://boppo.com) is a tablet with 10 light up buttons and a speaker
-but no screen. I have been working on it for over 4 years.
+![a tablet with 10 buttons in two rows of 5](tablet.png)
+
+[boppo] is a tablet with 10 light up buttons and a speaker but no screen. I have
+been working on it for over 4 years.
 
 I have developed over 30 activities at this time but I am most excited to see
 what activities others will build for the tablet.
@@ -27,16 +29,15 @@ boppo also has an NFC antenna that can read supported NFC tags.
 
 # The API
 
-The current activities and API are programmed in the [Rust](https://
-rust-lang.org) programming language. Additional language integration is possible
-in the future.
+The current activities and API are programmed in the  [Rust] programming
+language. Additional language integration is possible in the future.
 
 Easy to use functions and structs for receiving input and changing the button
 colors are provided.
 
-I also developed a custom audio playback library called [awedio](https://
-github.com/10buttons/awedio) to support streaming multiple sounds with effects
-simultaneously on an ESP-32 which is used in the SDK.
+I also developed a custom audio playback library called [awedio] to support
+streaming multiple sounds with effects simultaneously on an ESP-32 which is used
+in the SDK.
 
 ## Share with Others
 
@@ -54,9 +55,11 @@ ESP-32 runs a minimal embedded OS, no untrusted 3rd party code is allowed to run
 
 ## Open
 
-The circuit board schematic will be available to the public. The 
-[awedio](https://github.com/10buttons/awedio) audio playback library has been 
-open sourced and the SDK will be open sourced in the future. I plan to open
-source more of the platform over time.
+The circuit board schematic will be available to the public. The  [awedio] audio
+playback library has been  open sourced and the SDK will be open sourced in the
+future. I plan to open source more of the platform over time.
 
+[boppo]: (https://boppo.com)
+[Rust]: (https://rust-lang.org)
+[awedio]: (https://github.com/10buttons/awedio)
 [ESP32-S3]: https://www.espressif.com/en/products/socs/esp32-s3
