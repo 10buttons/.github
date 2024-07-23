@@ -54,9 +54,9 @@ ESP-32 runs a minimal embedded OS, no untrusted 3rd party code is allowed to run
 
 ## Open
 
-The circuit board schematic will be available to the public. The [awedio]
-(https://github.com/10buttons/awedio) audio playback library has been open
-sourced and the SDK will be open sourced in the future. I plan to open source
-more of the platform over time.
+The circuit board schematic will be available to the public. The 
+[awedio](https://github.com/10buttons/awedio) audio playback library has been 
+open sourced and the SDK will be open sourced in the future. I plan to open
+source more of the platform over time.
 
 [ESP32-S3]: https://www.espressif.com/en/products/socs/esp32-s3
