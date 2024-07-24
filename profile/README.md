@@ -59,7 +59,7 @@ The circuit board schematic will be available to the public. The  [awedio] audio
 playback library has been  open sourced and the SDK will be open sourced in the
 future. I plan to open source more of the platform over time.
 
-[boppo]: (https://boppo.com)
-[Rust]: (https://rust-lang.org)
-[awedio]: (https://github.com/10buttons/awedio)
+[boppo]: https://boppo.com
+[Rust]: https://rust-lang.org
+[awedio]: https://github.com/10buttons/awedio
 [ESP32-S3]: https://www.espressif.com/en/products/socs/esp32-s3
