@@ -9,14 +9,14 @@ what activities others will build for the tablet.
 We are making an open source SDK for activity development which will be released
 before the tablet ships.
 
-## The Specifications
+## The Specifications (subject to change)
 
 boppo's 10 light up buttons contain an RGB LED that can be changed to any RGB
 value but bright and saturated colors are best represented (e.g. black is just
 off and does not look black).
 
 The buttons are quality mechanical keyboard switches (currently Gateron Green
-switches but that is still subject to change).
+switches).
 
 boppo is powered by an [ESP32-S3] which is a microcontroller that has:
 
@@ -25,9 +25,14 @@ boppo is powered by an [ESP32-S3] which is a microcontroller that has:
 * At least 2 MB PSRAM
 * Wifi and Bluetooth communication
 
-boppo also has an NFC antenna that can read supported NFC tags.
+boppo also has:
 
-# The API
+* a 3.5 Watt (max) speaker
+* an NFC antenna that can read supported NFC tags
+* a rechargable lipo battery
+* a USB-C port (for recharging and potential data transfer such as firmware flashing)
+
+# The SDK API
 
 The current activities and API are programmed in the  [Rust] programming
 language. Additional language integration is possible in the future.
@@ -56,10 +61,17 @@ ESP-32 runs a minimal embedded OS, no untrusted 3rd party code is allowed to run
 ## Open
 
 The circuit board schematic will be available to the public. The  [awedio] audio
-playback library has been  open sourced and the SDK will be open sourced in the
+playback library has been open sourced and the SDK will be open sourced in the
 future. I plan to open source more of the platform over time.
+
+## Questions or Comments?
+
+Check out our [FAQ], post a question in our [reddit thread] or email me at
+ben@boppo.com
 
 [boppo]: https://boppo.com
 [Rust]: https://rust-lang.org
 [awedio]: https://github.com/10buttons/awedio
 [ESP32-S3]: https://www.espressif.com/en/products/socs/esp32-s3
+[FAQ]: https://boppo.com/pages/faq
+[reddit thread]: https://www.reddit.com/r/boppo/comments/1eqmc9v/got_a_question_ask_here/
